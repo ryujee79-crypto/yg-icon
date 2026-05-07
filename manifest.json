@@ -1,7 +1,7 @@
 {
-  "name": "양곡고 3학년 진학지도 통합 조회",
-  "short_name": "진학지도",
-  "description": "양곡고 3학년 성적·내신·진학정보 통합조회",
+  "name": "3학년 진학지도 통합 조회",
+  "short_name": "3학년 진학지도 통합 조회",
+  "description": "3학년 진학지도 통합 조회",
   "start_url": "https://ryujee79-crypto.github.io/yg-icon/index.html?home=1",
   "scope": "https://ryujee79-crypto.github.io/yg-icon/",
   "display": "standalone",
