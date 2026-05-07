@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>양곡고 3학년 진학지도 통합 조회</title>
+
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
+  <link rel="apple-touch-icon" href="icon-192.png">
+  <meta name="theme-color" content="#0d2a5e">
+
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #0d2a5e;
+      font-family: "맑은 고딕", sans-serif;
+      color: white;
+      text-align: center;
+    }
+    .box {
+      width: 90%;
+      max-width: 420px;
+    }
+    img {
+      width: 120px;
+      height: 120px;
+      border-radius: 28px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 24px;
+      line-height: 1.35;
+      margin: 0 0 14px;
+    }
+    p {
+      font-size: 15px;
+      line-height: 1.5;
+      opacity: 0.9;
+      margin: 0 0 24px;
+    }
+    a {
+      display: block;
+      background: white;
+      color: #0d2a5e;
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: 900;
+      padding: 16px 18px;
+      border-radius: 16px;
+    }
+  </style>
+
+  <script>
+    const WEBAPP_URL = "https://script.google.com/macros/s/AKfycbwZxlOjKPyZ1QbUSfsmrOQIeeEkvIv6fS0SuhN3BmmRvUFXSn1eiGDZWDptt2RFExkQvQ/exec?v=icon1";
+
+    if (new URLSearchParams(location.search).get("home") === "1") {
+      location.replace(WEBAPP_URL);
+    }
+  </script>
+</head>
+<body>
+  <div class="box">
+    <img src="icon-192.png" alt="진학지도 아이콘">
+    <h1>양곡고 3학년<br>진학지도 통합 조회</h1>
+    <p>홈 화면에 추가한 뒤 아이콘을 누르면 진학지도 웹앱으로 이동합니다.</p>
+    <a href="https://script.google.com/macros/s/AKfycbwZxlOjKPyZ1QbUSfsmrOQIeeEkvIv6fS0SuhN3BmmRvUFXSn1eiGDZWDptt2RFExkQvQ/exec?v=icon1">웹앱 바로 열기</a>
+  </div>
+</body>
+</html>
